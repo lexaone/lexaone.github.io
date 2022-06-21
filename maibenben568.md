@@ -44,7 +44,7 @@ intel nuc x15, модель [LAPKC71E](https://ark.intel.com/content/www/ru/ru/a
 Есть совершенно аналогичная модель,но с Nvidia 3070, [LAPKC71F](https://ark.intel.com/content/www/ru/ru/ark/products/198152/intel-nuc-x15-laptop-kit-lapkc71f.html)
 
 ### под какими марками и кто продает
-данная платформа используется под кучей разных марок:
+данная oem платформа используется у многих производителей, их обьединяет только одно - сравнительная неизвестность:
 - "американский" ADATA XPG Xenia 15
 - "бразильский" AVELL (не нашел точной модели, только упоминание на reddit)
 - "немецкий" TUXEDO Stellaris 15 gen 3
@@ -66,7 +66,7 @@ https://www.westerndigital.com/ru-ru/products/internal-drives/pc-sn540-ssd#SDDPN
 https://www.notebookcheck.net/ADATA-XPG-Xenia-15-laptop-review-Almost-as-sharp-as-a-Razer-Blade.572311.0.html
 
 ### о "maibenben"
-Название maibenben нигде в диагностике не фигурирует, везде производитель - intel. так что буквы "maibenben" - только на шильдике
+Название maibenben нигде в диагностике не фигурирует, везде производитель - intel. так что буквы "maibenben" - только на шильдике крышки
 экрана. даже заставка bios - Intel NUC
 
 ### выбор OS
