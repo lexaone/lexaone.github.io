@@ -1,6 +1,6 @@
 layout: page
-title: "PAGE TITLE"
-permalink: /URL-PATH/
+title: "MaiBenBen 568 laptop заметки"
+permalink: /maibenben568/
 
 ## MAIBENBEN 658 
 Приобрел недавно этот ноутбук. в принципе он мне нравиться. 
