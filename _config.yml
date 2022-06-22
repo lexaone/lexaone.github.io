@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 lsi: false
 safe: true
+disable_disk_cache: BOOL
 source: [your repo's top level directory]
 incremental: false
 highlighter: rouge
