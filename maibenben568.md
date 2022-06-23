@@ -81,6 +81,7 @@ https://www.notebookcheck.net/ADATA-XPG-Xenia-15-laptop-review-Almost-as-sharp-a
 
 ### драйвера под windows
 на [сайте maibenben](http://ru_support.maibenben.cn/drives/47&series_id=30) можно скачать пакет драйверов для этого ноутбука - но тут нужно запастись терпением - качается 2.1Gb из китая очень не быстро!
+на [сайте intel](https://www.intel.ru/content/www/ru/ru/download/649904/intel-nuc-x15-laptop-kit-lapkcx1x-driver-pack.html) можно скачать более новые драйвера и быстрее :)
 
 ### поддержка linux
 Надо сказать, что в репозиториях manjaro и в AUR я нашел практически все нижеописанные программки - в других дистрибутивах придется подключать доп репозитории или скачивать и собирать программы с  github. 
