@@ -79,7 +79,7 @@ https://www.notebookcheck.net/ADATA-XPG-Xenia-15-laptop-review-Almost-as-sharp-a
 Скачиваются с [сайта intel](https://www.intel.ru/content/www/ru/ru/download/648490/bios-update-kctgl357-for-the-intel-nuc-x15-laptop-kits-lapkc71f-lapkc71e-lapkc51e.html) 
 Если у вас не windows - качаем "Обновление BIOS С7 Файл .CAP", записываем на usb flash (лучше с fat16), перезагружаем ноутбук и при старте BIOS жмем клавишу F7, выбираем .cap файл. далее ждем перезагрузки.
 
-# драйвера под windows
+### драйвера под windows
 на [сайте maibenben](http://ru_support.maibenben.cn/drives/47&series_id=30) можно скачать пакет драйверов для этого ноутбука - но тут нужно запастись терпением - качается 2.1Gb из китая очень не быстро!
 
 ### поддержка linux
