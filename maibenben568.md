@@ -79,6 +79,36 @@ https://www.notebookcheck.net/ADATA-XPG-Xenia-15-laptop-review-Almost-as-sharp-a
 Скачиваются с [сайта intel](https://www.intel.ru/content/www/ru/ru/download/648490/bios-update-kctgl357-for-the-intel-nuc-x15-laptop-kits-lapkc71f-lapkc71e-lapkc51e.html) 
 Если у вас не windows - качаем "Обновление BIOS С7 Файл .CAP", записываем на usb flash (лучше с fat16), перезагружаем ноутбук и при старте BIOS жмем клавишу F7, выбираем .cap файл. далее ждем перезагрузки.
 
+### своя заставка(logo) при старте BIOS
+Попутно с обновлением bios на [сайте intel](https://www.intel.ru/content/www/ru/ru/download/19504/intel-aptio-v-uefi-firmware-integrator-tools.html)
+можно скачать средства для кастомизации. Не буду ничего советовать по использованию этих утилит - потенциально они довольно опасны. Остановлюсь только на
+программке iChLogo: эта утилита позволяет заменить заставку на свою картинку. У intel в архиве выложена версии под windows и под linux.
+Сначала подготавливаем свою картинку-заставку, она должна быть:
+- в формате .BMP,.JPEG или .PNG
+- размером не более 800x600
+- 16 цветов, 256 цветов and 24bit цвета для .BMP или 8-битных оттенка серого либо не более 16 бит цвета RGB для .PNG - подробности в readme приложенном к утилите
+- максимального размера - 256kb
+Далее нужен образ обновления BIOS (.cap файл) из предыдущего пункта.
+Сохраняем на всякий случай старое лого (в основном, чтобы сравнить формат: 
+> ./iChLogoLnx64 /i <файл_прошивки_bios.cap> /e logo
+В результате в получаем файл со старой заставкой logo.jpg
+> file logo.jpg
+> logo.jpg: JPEG image data, JFIF standard 1.02, aspect ratio, density 100x100, segment length 16, baseline, precision 8, 600x360, components 3
+проверяем, что наше новое лого подходит:
+> ./iChLogoLnx64 /i KC0040.CAP /t logo_new.png 
+>
+> +--------------------------------------------------------------------------+
+> |                        iChLogo 5.15.0044                                 |
+> |              Copyright (c) 2021 AMI. All rights reserved.                |
+> +--------------------------------------------------------------------------+
+> 
+> Logo [logo_new.png] will fit into the image [KC0040.CAP].
+
+
+Далее создаем кастомизированную прошивку:
+> ./iChLogoLnx64 /i <файл_прошивки_bios.cap> /o <новый_файл_прошивки_bios.cap> /r logo_new.png
+В результате получаем кастомизированную прошивку, которую перешиваем штатным образом.
+
 ### драйвера под windows
 на [сайте maibenben](http://ru_support.maibenben.cn/drives/47&series_id=30) можно скачать пакет драйверов для этого ноутбука - но тут нужно запастись терпением - качается 2.1Gb из китая очень не быстро!
 на [сайте intel](https://www.intel.ru/content/www/ru/ru/download/649904/intel-nuc-x15-laptop-kit-lapkcx1x-driver-pack.html) можно скачать более новые драйвера и быстрее :)
