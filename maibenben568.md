@@ -90,23 +90,30 @@ https://www.notebookcheck.net/ADATA-XPG-Xenia-15-laptop-review-Almost-as-sharp-a
 - максимального размера - 256kb
 Далее нужен образ обновления BIOS (.cap файл) из предыдущего пункта.
 Сохраняем на всякий случай старое лого (в основном, чтобы сравнить формат: 
-> ./iChLogoLnx64 /i <файл_прошивки_bios.cap> /e logo
+```
+./iChLogoLnx64 /i <файл_прошивки_bios.cap> /e logo
+```
 В результате в получаем файл со старой заставкой logo.jpg
-> file logo.jpg
-> logo.jpg: JPEG image data, JFIF standard 1.02, aspect ratio, density 100x100, segment length 16, baseline, precision 8, 600x360, components 3
+```
+$ file logo.jpg
+ logo.jpg: JPEG image data, JFIF standard 1.02, aspect ratio, density 100x100, segment length 16, baseline, precision 8, 600x360, components 3
+```
 проверяем, что наше новое лого подходит:
-> ./iChLogoLnx64 /i KC0040.CAP /t logo_new.png 
->
-> +--------------------------------------------------------------------------+
-> |                        iChLogo 5.15.0044                                 |
-> |              Copyright (c) 2021 AMI. All rights reserved.                |
-> +--------------------------------------------------------------------------+
-> 
-> Logo [logo_new.png] will fit into the image [KC0040.CAP].
+```
+./iChLogoLnx64 /i KC0040.CAP /t logo_new.png 
 
+ +--------------------------------------------------------------------------+
+ |                        iChLogo 5.15.0044                                 |
+ |              Copyright (c) 2021 AMI. All rights reserved.                |
+ +--------------------------------------------------------------------------+
+ 
+ Logo [logo_new.png] will fit into the image [KC0040.CAP].
+```
 
 Далее создаем кастомизированную прошивку:
-> ./iChLogoLnx64 /i <файл_прошивки_bios.cap> /o <новый_файл_прошивки_bios.cap> /r logo_new.png
+```
+$ ./iChLogoLnx64 /i <файл_прошивки_bios.cap> /o <новый_файл_прошивки_bios.cap> /r logo_new.png
+```
 В результате получаем кастомизированную прошивку, которую перешиваем штатным образом.
 
 ### драйвера под windows
