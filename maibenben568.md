@@ -61,6 +61,22 @@ intel nuc x15, модель [LAPKC71E](https://ark.intel.com/content/www/ru/ru/a
 Установленный диск - NVME Western Digital SN540 - в общем довольно скромненький по параметрам (но хотя-бы не "левый" производитель)
 https://www.westerndigital.com/ru-ru/products/internal-drives/pc-sn540-ssd#SDDPNPF-512G 
 
+### upgrade NVMe
+PCI 4.0 NVMe диски поддерживаются! 
+Вот что выдает lspci на диск, который шел в комплекте с ноутбуком:
+
+```
+lspci -nvvvs 2f:00.0 |egrep 'LnkCap:|LnkSta:'               ✔ 
+		LnkCap:	Port #0, Speed 8GT/s, Width x4, ASPM L1, Exit Latency L1 <8us
+		LnkSta:	Speed 8GT/s, Width x4
+```
+А вот на установленный Samsung 980 Pro:
+```
+lspci -nvvvs 02:00.0 |egrep 'LnkCap:|LnkSta:'               ✔ 
+		LnkCap:	Port #0, Speed 16GT/s, Width x4, ASPM L1, Exit Latency L1 <64us
+		LnkSta:	Speed 16GT/s, Width x4
+```
+
 ### ссылка на подробный обзор
 если нужны картинки и красивые графики, то есть довольно [подробный обзор(правда тут модель с 3070 и другой памятью и диском)](https://www.notebookcheck.net/ADATA-XPG-Xenia-15-laptop-review-Almost-as-sharp-as-a-Razer-Blade.572311.0.html)
 
