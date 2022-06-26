@@ -99,6 +99,7 @@ $ file logo.jpg
  logo.jpg: JPEG image data, JFIF standard 1.02, aspect ratio, density 100x100, segment length 16, baseline, precision 8, 600x360, components 3
 ```
 проверяем, что наше новое лого подходит:
+
 ```
 ./iChLogoLnx64 /i KC0040.CAP /t logo_new.png 
 
