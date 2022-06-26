@@ -76,6 +76,7 @@ lspci -nvvvs 02:00.0 |egrep 'LnkCap:|LnkSta:'               ✔
 		LnkCap:	Port #0, Speed 16GT/s, Width x4, ASPM L1, Exit Latency L1 <64us
 		LnkSta:	Speed 16GT/s, Width x4
 ```
+Обращаем внимание на 16GT/s: это transfer per lane соответствующий PCI 4.0 
 
 ### ссылка на подробный обзор
 если нужны картинки и красивые графики, то есть довольно [подробный обзор(правда тут модель с 3070 и другой памятью и диском)](https://www.notebookcheck.net/ADATA-XPG-Xenia-15-laptop-review-Almost-as-sharp-as-a-Razer-Blade.572311.0.html)
