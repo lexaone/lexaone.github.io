@@ -62,8 +62,7 @@ intel nuc x15, модель [LAPKC71E](https://ark.intel.com/content/www/ru/ru/a
 https://www.westerndigital.com/ru-ru/products/internal-drives/pc-sn540-ssd#SDDPNPF-512G 
 
 ### ссылка на подробный обзор
-если нужны картинки и красивые графики, то есть довольно подробный обзор(правда тут модель с 3070 и другой памятью и диском)
-https://www.notebookcheck.net/ADATA-XPG-Xenia-15-laptop-review-Almost-as-sharp-as-a-Razer-Blade.572311.0.html
+если нужны картинки и красивые графики, то есть довольно [подробный обзор(правда тут модель с 3070 и другой памятью и диском)](https://www.notebookcheck.net/ADATA-XPG-Xenia-15-laptop-review-Almost-as-sharp-as-a-Razer-Blade.572311.0.html)
 
 ### о "maibenben"
 Название maibenben нигде в диагностике не фигурирует, везде производитель - intel. так что буквы "maibenben" - только на шильдике крышки
