@@ -43,6 +43,7 @@
 эти OEM производители в свою очередь использую платформу (laptop kit) от intel:
 intel nuc x15, модель [LAPKC71E](https://ark.intel.com/content/www/ru/ru/ark/products/198135/intel-nuc-x15-laptop-kit-lapkc71e.html) (это именно модель с Nvidia 3060)
 Есть совершенно аналогичная модель,но с Nvidia 3070, [LAPKC71F](https://ark.intel.com/content/www/ru/ru/ark/products/198152/intel-nuc-x15-laptop-kit-lapkc71f.html)
+Ну и в довершении можно упомянуть [полную спецификацию от intel](https://lexaone.github.io/KC57_PROD_SPEC.pdf) на три модели NUC X15
 
 ### под какими марками и кто продает
 данная oem платформа используется у многих производителей, их обьединяет только одно - сравнительная неизвестность:
