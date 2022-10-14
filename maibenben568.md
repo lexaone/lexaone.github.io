@@ -177,7 +177,7 @@ $ ./iChLogoLnx64 /i <файл_прошивки_bios.cap> /o <новый_файл
 Вот список гарантированно рабочих версий:
 
 | название | версия |
----
+| --- | --- |
 | tuxedo-control-center | 1.1.7-1 |
 | tuxedo-keyboard | 3.0.10-3 |
 | tuxedo-touchpad-switch | 1.0.4-1 |
