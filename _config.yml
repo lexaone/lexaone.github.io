@@ -2,7 +2,8 @@
 #remote_theme: just-the-docs/just-the-docs
 #remote_theme: tomjoht/documentation-theme-jekyll
 #remote_theme: riggraz/no-style-please
-remote_theme: rahul-bothra/parchment
+#remote_theme: rahul-bothra/parchment
+remote_theme: zivhub/monophase
 lsi: false
 safe: true
 disable_disk_cache: BOOL
