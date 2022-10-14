@@ -1,4 +1,5 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+remote_theme: just-the-docs/just-the-docs
 lsi: false
 safe: true
 disable_disk_cache: BOOL
