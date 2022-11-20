@@ -255,7 +255,7 @@ note: в manjaro/arch linux при пользовании в консоли/те
 > OPENCV_LOG_LEVEL=ERROR
 
 К сожалению изначально howdy был написан для python 2. это вносит некоторые неудобства в ряд дистрибутивов, где python2 стал deprecated. 
-к тому-же howdy зависит от pam-python который тоже зависит от от python 2. Для Manjaro решение следующее - нужно поставить pam-python-git из AUR (он уже написан на python 3. далее нужно поправить исходники howdy как это описано в https://aur.archlinux.org/packages/howdy
+к тому-же howdy зависит от pam-python который тоже зависит от от python 2. Для Manjaro решение следующее - нужно поставить pam-python-git из AUR (он уже написан на python 3. далее нужно поправить исходники howdy как это описано в https://aur.archlinux.org/packages/howdy 
 
 ### Калибровка дисплея
 IPS Матрица дисплея ноутбука производства китайского производителя BOE, модель "BOE NE156QHM-NY2"
