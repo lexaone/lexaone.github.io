@@ -106,7 +106,9 @@ lspci -nvvvs 02:00.0 |egrep 'LnkCap:|LnkSta:'               ✔
 
 ### обновление BIOS
 Скачиваются с [сайта intel](https://www.intel.ru/content/www/ru/ru/download/648490/bios-update-kctgl357-for-the-intel-nuc-x15-laptop-kits-lapkc71f-lapkc71e-lapkc51e.html) 
+Обновления появляются регулярно, но не часто, за 2022 год их было выпущено целых два!
 Если у вас не windows - качаем "Обновление BIOS С7 Файл .CAP", записываем на usb flash (лучше с fat16), перезагружаем ноутбук и при старте BIOS жмем клавишу F7, выбираем .cap файл. далее ждем перезагрузки.
+
 
 ### своя заставка(logo) при старте BIOS
 Попутно с обновлением bios на [сайте intel](https://www.intel.ru/content/www/ru/ru/download/19504/intel-aptio-v-uefi-firmware-integrator-tools.html)
